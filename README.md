@@ -17,7 +17,7 @@ This is the project you create through our series of workshops covering...
 
 During the workshops, we use glitch. Our working copy is at [glitch.com/edit/#!/hs-2018s-workshops](https://glitch.com/edit/#!/hs-2018s-workshops). Alternatively, you can run your own copy by 'remixing' it! ([What's remixing???](https://glitch.com/faq#remix))
 
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/HackSheffield/workshops-project-2018)
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/HackSheffield/workshops-2018)
 
 ### On your own machine
 
