@@ -6,7 +6,7 @@ Welcome to the repository of the project for our Spring 2018 workshop series!
 
 This is the project you create through our series of workshops covering...
 
-1. Web Servers
+1. Serving The Web
 2. Front End
 3. APIs
 4. Continuous Integration & Deployment

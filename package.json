@@ -1,0 +1,32 @@
+{
+  "name": "workshops-2018",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackSheffield/workshops-2018.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HackSheffield/workshops-2018/issues"
+  },
+  "homepage": "https://github.com/HackSheffield/workshops-2018#readme",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "lokijs": "^1.5.3",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
