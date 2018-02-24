@@ -19,6 +19,8 @@ During the workshops, we use glitch. Our working copy is at [glitch.com/edit/#!/
 
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/HackSheffield/workshops-2018)
 
+NOTE: If you start typing in the window, it will automatically 'remix' it and stop following. If that happens, just come back to [glitch.com/edit/#!/hs-2018s-workshops](https://glitch.com/edit/#!/hs-2018s-workshops).
+
 ### On your own machine
 
 If you'd prefer to run it on your own machine, that's easy - only a few prerequisites.
