@@ -1,0 +1,22 @@
+doctype html
+html
+head
+  title Dog of the Day
+  
+body
+  header
+    h1 Dog of the Day
+    img#top-dog-image
+    p The top dog of today
+    
+  for gif, idx in gifs
+    .card(data-dog=(idx+1))
+      img(src=gif)
+      div
+        span.votes
+        span.upvote
+          button Upvote
+        span.downvote
+          button Downvote
+
+  script(src='./js/index.js')
