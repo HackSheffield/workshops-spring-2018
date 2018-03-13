@@ -2,11 +2,13 @@
 document.addEventListener('DOMContentLoaded', function () {
   function getVotes () {
     // Info on fetch: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+    // Info on Promises: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
     window.fetch('/votes', {
       method: 'GET'
-    }).then(function (response) { // Info on Promises: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+    }).then(function (response) {
       if (response.ok) {
-        return response.json() // passes value to the next '.then'
+        // pass value to the next '.then'
+        return response.json()
       } else {
         console.error('Failed to retrieve votes :(')
       }
