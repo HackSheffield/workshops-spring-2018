@@ -54,3 +54,6 @@ document.addEventListener('DOMContentLoaded', function () {
     })
   }
 })
+
+// Shh, hey!
+console.log('%c Hello from HackSheffield', "background: #00ADEF; color: #fff; font-size: xx-large")
