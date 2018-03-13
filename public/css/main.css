@@ -1,0 +1,36 @@
+.navbar {
+  background-color: red;
+}
+
+header {
+  background-color: #00ADEF;
+  padding: 124px 0 50px; /* https://developer.mozilla.org/en-US/docs/Web/CSS/padding */
+}
+
+.upvote, .downvote {
+  cursor: pointer;
+}
+
+.upvote:hover {
+  color: green;
+}
+
+.downvote:hover {
+  color: red;
+}
+
+#top-dog-image {
+  border: 3px solid white; 
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px 0 black;
+}
+
+body {
+  transition: 5s;
+}
+  
+
+body:hover {
+  transform: rotate(360deg);
+}
+

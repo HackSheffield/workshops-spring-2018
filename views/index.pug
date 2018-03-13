@@ -2,21 +2,43 @@ doctype html
 html
 head
   title Dog of the Day
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, inital-scale=1, shrink-to-fit=no')
+  // http://getbootstrap.com/
+  link(rel='stylesheet' type='text/css' href='css/bootstrap.min.css')
+  // Our own CSS styles
+  link(rel='stylesheet' type='text/css' href='css/main.css')
   
+  script(defer='' src='https://use.fontawesome.com/releases/v5.0.6/js/all.js')
+
+
+
+
 body
-  header
-    h1 Dog of the Day
-    img#top-dog-image
-    p The top dog of today
-    
-  for gif, idx in gifs
-    .card(data-dog=(idx+1))
-      img(src=gif)
-      div
-        span.votes
-        span.upvote
-          button Upvote
-        span.downvote
-          button Downvote
+  nav.navbar.navbar-dark.fixed-top
+    .container
+      a.navbar-brand(href='#') Dog of the Day
+      span.navbar-text Created by
+        a(href='http://hacksheffield.co' target='_blank')  HackSheffield
+        
+  header.text-white
+    .container.text-center
+      h1 Dog of the Day
+      img#top-dog-image.mt-4.mb-3(src=dood.url)
+      p= dood.count
+      p.lead The top dog of today
+  
+  .container.mt-5
+    .card-columns
+      for gif, idx in gifs
+        .card(data-dog=(idx+1))
+          img.card-img-top(src=gif)
+          .card-body
+            span.text-muted.mb-0.select-none
+              span.votes
+              span.upvote
+                i.fas.fa-arrow-up.fa-lg.float-right.ml-3.mt-1
+              span.downvote
+                i.fas.fa-arrow-down.fa-lg.float-right.mt-1
 
   script(src='./js/index.js')

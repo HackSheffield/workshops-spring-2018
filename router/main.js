@@ -36,8 +36,15 @@ function databaseInit () {
 }
 
 router.get('/', function (req, res) {
+  const dood = dayVotes.data.sort((a, b) => {
+    if (a.count > b.count) return -1
+    else if (a.count < b.count) return 1
+    else return 0
+  })
+  
   res.render('index', {
-    gifs: dayGifs
+    gifs: dayGifs,
+    dood: dood[0]
   })
 })
 
