@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/HackSheffield/workshops-2018#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "dotenv": "^5.0.0",
     "express": "^4.16.2",
     "lokijs": "^1.5.3",
